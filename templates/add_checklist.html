@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container-form">
+   <h2>Checklist for Employee Code: {{ employee_code }}</h2>
+    {% if message %}
+    <div class="alert alert-info">{{ message }}</div>
+    {% endif %}
+<form method="POST" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label class="form-label">Checklist Items:</label><br>
+            {% for item in checklist_items %}
+                       {% set field_id = item.document_name.replace(' ', '_').lower() %}
+                <div class="form-check mb-2">
+                                      <input class="form-check-input" type="checkbox" name="checklist_items" value="{{ item.document_name }}" id="check_{{ field_id }}" data-file="file_{{ field_id }}" onchange="toggleFileRequired(this)">
+                    <label class="form-check-label" for="check_{{ field_id }}">
+                        {{ item.document_name }} —
+                        {% if item.is_submitted == 'Yes' %}
+                            <span class="text-success">Submitted ✅</span>
+                        {% else %}
+                            <span class="text-danger">Missed ❌</span>
+                        {% endif %}
+                    </label>
+                     <input type="file" name="file_{{ item.document_name }}" id="file_{{ field_id }}" class="form-control mt-1 d-none" accept=".jpg,.jpeg,.png,.pdf">
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="mb-3">
+            <label for="verified_by" class="form-label">Verified By</label>
+            <input type="text" class="form-control" id="verified_by" name="verified_by" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="reviewed_by" class="form-label">Reviewed & Approved By</label>
+            <input type="text" class="form-control" id="reviewed_by" name="reviewed_by" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="verified_date" class="form-label">Verification Date</label>
+            <input type="date" class="form-control" id="verified_date" name="verified_date" required>
+        </div>
+
+           <button type="submit" class="btn btn-primary mt-3">Save Checklist</button>
+    </form>
+</div>
+
+<script>
+function toggleFileRequired(cb) {
+    const fileInput = document.getElementById(cb.dataset.file);
+    if (!fileInput) return;
+    if (cb.checked) {
+        fileInput.classList.remove('d-none');
+        fileInput.required = true;
+    } else {
+        fileInput.classList.add('d-none');
+        fileInput.required = false;
+        fileInput.value = '';
+    }
+}
+</script>
+{% endblock %}

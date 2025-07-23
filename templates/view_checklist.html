@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <h2 class="text-center my-3">Checklist for Employee Code: {{ employee_code }}</h2>
+
+    <table class="table table-bordered text-center">
+        <thead class="table-dark">
+            <tr>
+                <th>Document Name</th>
+                <th>Submitted</th>
+                <th>Verified By</th>
+                <th>Reviewed By</th>
+                <th>Verified Date</th>
+                {% if session['user_role'] in ['admin', 'super_admin'] %}
+                <th>File</th>
+                <th>Upload Date</th>
+                <th>Uploaded By</th>
+                {% endif %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in checklist %}
+            <tr>
+                <td>{{ item.document_name }}</td>
+                <td>
+                    {% if item.is_submitted == 'Missed' %}
+                        <span class="text-danger fw-bold">{{ item.is_submitted }}</span>
+                    {% else %}
+                        <span class="text-success">{{ item.is_submitted }}</span>
+                    {% endif %}
+                </td>
+                <td>{{ item.verified_by }}</td>
+                <td>{{ item.reviewed_by }}</td>
+               <td>{{ item.verified_date }}</td>
+                {% if session['user_role'] in ['admin', 'super_admin'] %}
+                <td>
+                    {% if item.file_path %}
+                        <a href="/uploads/{{ item.file_path }}" target="_blank">View</a>
+                    {% else %}-{% endif %}
+                </td>
+                <td>{{ item.upload_date or '-' }}</td>
+                <td>{{ item.uploaded_by or '-' }}</td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="/employees" class="btn btn-secondary">Back</a>
+</div>
+{% endblock %}

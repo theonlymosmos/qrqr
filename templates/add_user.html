@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>Add New User</h2>
+
+    {% if message %}
+        <div class="alert alert-info">{{ message }}</div>
+    {% endif %}
+
+    <form method="POST" enctype="multipart/form-data">
+        <div class="mb-3">
+            <input type="text" name="username" class="form-control" placeholder="Username" required>
+        </div>
+        <div class="mb-3">
+            <input type="password" name="password" class="form-control" placeholder="Password" required>
+        </div>
+        <div class="mb-3">
+            <input type="text" name="full_name" class="form-control" placeholder="Full Name" required>
+        </div>
+                <div class="mb-3">
+            <label class="form-label">Companies</label>
+            <div class="dropdown">
+                <button class="btn btn-outline-secondary dropdown-toggle w-100 text-start" type="button" id="companyDropdownBtn" data-bs-toggle="dropdown" aria-expanded="false">
+                    Select Companies
+                </button>
+                <ul class="dropdown-menu w-100" id="companyDropdown">
+                    {% for comp in companies %}
+                    <li>
+                        <label class="dropdown-item">
+                            <input class="form-check-input me-2" type="checkbox" name="company" value="{{ comp }}">
+                            {{ comp }}
+                        </label>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="mb-3">
+            <input type="text" name="mobile_number" class="form-control" placeholder="Mobile Number" required>
+        </div>
+        <div class="mb-3">
+            <input type="email" name="email" class="form-control" placeholder="Email" required>
+        </div>
+        <div class="mb-3">
+            <input type="file" name="profile_photo" class="form-control" accept="image/*">
+        </div>
+        <div class="mb-3">
+          <select name="role" class="form-control" required>
+                <option value="admin">Admin</option>
+                <option value="viewer">Viewer</option>
+            </select>
+        </div>
+         <button type="submit" class="btn btn-primary">Create User</button>
+    </form>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const dropdown = document.getElementById('companyDropdown');
+    const btn = document.getElementById('companyDropdownBtn');
+    dropdown.addEventListener('click', () => {
+        const checked = dropdown.querySelectorAll('input[name="company"]:checked');
+        if (checked.length) {
+            btn.textContent = Array.from(checked).map(c => c.value).join(', ');
+        } else {
+            btn.textContent = 'Select Companies';
+        }
+    });
+});
+</script>
+{% endblock %}

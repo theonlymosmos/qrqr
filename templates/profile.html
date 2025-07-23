@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-4">
+    <div class="card mx-auto" style="max-width: 500px;">
+        <div class="card-body text-center">
+            <img src="{{ url_for('static', filename=user[8] or 'img/default_profile.png') }}" class="rounded-circle mb-3" width="120" height="120" alt="Profile">
+            <h4>{{ user[4] or user[1] }}</h4>
+            <p class="text-muted">{{ user[1] }} ({{ user[3]|capitalize }})</p>
+            <p>{{ user[5] }}</p>
+            <p>{{ user[6] }}</p>
+            <p>{{ user[7] }}</p>
+        </div>
+    </div>
+   
+</div>
+{% endblock %}

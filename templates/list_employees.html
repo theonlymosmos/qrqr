@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2 class="text-center">Employee Records</h2>
+
+    <!-- Search Form -->
+   <form method="GET" class="d-flex mb-3">
+        <input type="text" name="search" class="form-control me-2" placeholder="Search" value="{{ search_query }}">
+        <select name="filter" class="form-select me-2" style="max-width: 200px;">
+            <option value="employee_code" {% if selected_filter == 'employee_code' %}selected{% endif %}>Employee Code</option>
+            <option value="name" {% if selected_filter == 'name' %}selected{% endif %}>Name</option>
+            <option value="department" {% if selected_filter == 'department' %}selected{% endif %}>Department</option>
+            <option value="unit" {% if selected_filter == 'unit' %}selected{% endif %}>Unit</option>
+            <option value="company" {% if selected_filter == 'company' %}selected{% endif %}>Company</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+
+    <table class="table table-bordered mt-3">
+        <thead class="table-dark">
+            <tr>
+                <th>Employee Code</th>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Department</th>
+                <th>Unit</th>
+                <th>Company</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for emp in employees %}
+            <tr>
+                <td><a href="/employee/{{ emp[1] }}">{{ emp[1] }}</a></td> <!-- Clickable Employee Code -->
+                <td>{{ emp[2] }}</td>
+                <td>{{ emp[3] }}</td>
+                <td>{{ emp[4] }}</td>
+                <td>{{ emp[5] }}</td>
+                <td>{{ emp[6] }}</td>
+                <td>
+                    <div class="d-flex flex-column gap-1">
+                       {% if session['user_role'] in ['admin', 'super_admin'] %}
+                            <a href="/add_checklist/{{ emp[1] }}" class="btn btn-success btn-sm w-100">Add Checklist</a>
+                            <a href="/add_file_tracking/{{ emp[1] }}" class="btn btn-primary btn-sm w-100">Add Tracking</a>
+                        {% endif %}
+                        <a href="/view_checklist/{{ emp[1] }}" class="btn btn-outline-success btn-sm w-100">View Checklist</a>
+                        <a href="/view_file_tracking/{{ emp[1] }}" class="btn btn-outline-primary btn-sm w-100">View Tracking</a>
+
+                                   {% if session['user_role'] in ['admin', 'super_admin'] %}
+                        <form action="/delete_employee/{{ emp[1] }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this employee?')">
+                            <button type="submit" class="btn btn-danger btn-sm w-100">Delete</button>
+                        </form>
+                        {% endif %}
+                    </div>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+       {% if session['user_role'] in ['admin', 'super_admin'] %}
+        <a href="/add" class="btn btn-outline-primary">Add New Employee</a>
+    {% endif %}
+</div>
+{% endblock %}

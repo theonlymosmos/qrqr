@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <h3 class="text-center">Upload Employee File for OCR</h3>
+
+    {% if message %}
+        <div class="alert alert-warning text-center">{{ message }}</div>
+    {% endif %}
+
+    {% if ocr_text %}
+        <div class="alert alert-info"><strong>OCR Extracted:</strong><br>{{ ocr_text }}</div>
+    {% endif %}
+
+    <form method="POST" enctype="multipart/form-data" class="text-center mt-3">
+        <input type="file" name="file" required class="form-control mb-2" style="max-width: 300px; margin: auto;">
+        <button type="submit" class="btn btn-primary">Upload & Check</button>
+    </form>
+
+    <div class="text-center mt-3">
+        <button class="btn btn-secondary" onclick="openCamera()">Open Camera</button>
+        <video id="cameraPreview" width="300" height="200" autoplay style="display: none; margin-top: 10px;"></video>
+        <canvas id="snapshotCanvas" width="300" height="200" style="display: none;"></canvas>
+        <button id="captureButton" class="btn btn-success mt-2" style="display: none;" onclick="captureAndSubmit()">Capture & Check</button>
+        <form id="cameraForm" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="camera_image" id="cameraImageInput">
+        </form>
+    </div>
+
+    <script>
+        let videoStream;
+
+        function openCamera() {
+            const video = document.getElementById('cameraPreview');
+            const captureButton = document.getElementById('captureButton');
+
+            navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } })
+                .then(stream => {
+                    videoStream = stream;
+                    video.srcObject = stream;
+                    video.style.display = 'block';
+                    captureButton.style.display = 'inline-block';
+                })
+                .catch(() => {
+                    navigator.mediaDevices.getUserMedia({ video: true })
+                        .then(stream => {
+                            videoStream = stream;
+                            video.srcObject = stream;
+                            video.style.display = 'block';
+                            captureButton.style.display = 'inline-block';
+                        })
+                        .catch(() => {
+                            alert('Camera access denied or not available.');
+                        });
+                });
+        }
+
+        function captureAndSubmit() {
+            const video = document.getElementById('cameraPreview');
+            const canvas = document.getElementById('snapshotCanvas');
+            const cameraForm = document.getElementById('cameraForm');
+            const cameraImageInput = document.getElementById('cameraImageInput');
+
+            const context = canvas.getContext('2d');
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+            if (videoStream) {
+                videoStream.getTracks().forEach(track => track.stop());
+            }
+
+            video.style.display = 'none';
+            document.getElementById('captureButton').style.display = 'none';
+
+            const imageData = canvas.toDataURL('image/png');
+            cameraImageInput.value = imageData;
+            cameraForm.submit();
+        }
+    </script>
+</div>
+{% endblock %}

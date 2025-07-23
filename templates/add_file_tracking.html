@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container-form">
+    <h2>File Tracking for Employee Code: {{ employee_code }}</h2>
+
+    <form method="POST">
+        <div class="mb-3">
+            <label for="date_taken" class="form-label">Date Taken</label>
+            <input type="date" class="form-control" id="date_taken" name="date_taken" required>
+        </div>
+
+            <div class="mb-3">
+            <label for="taken_by" class="form-label">Taken By</label>
+            <input type="text" class="form-control" id="taken_by" name="taken_by" required>
+        </div>
+
+        <div class="mb-3">
+            <label>Email of Person Taking the File</label>
+            <input type="email" name="taken_by_email" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="file_taken_time" class="form-label">File Taken Time</label>
+            <input type="text" class="form-control" id="file_taken_time" name="file_taken_time" required>
+        </div>
+        <div class="mb-3">
+            <label>Expected Return Date</label>
+            <input type="date" name="expected_return_date" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="documents_taken" class="form-label">Any Documents Taken</label>
+            <div style="border:1px solid #ccc; max-height:150px; overflow-y:auto; padding:5px;">
+                {% for item in checklist_items %}
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="documents_taken" id="doc_add_{{ loop.index }}" value="{{ item.document_name }}">
+                    <label class="form-check-label" for="doc_add_{{ loop.index }}">{{ item.document_name }}</label>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="status_of_documents" class="form-label">Status of Documents</label>
+            <input type="text" class="form-control" id="status_of_documents" name="status_of_documents" required>
+        </div>
+
+         <button type="submit" class="btn btn-primary mt-3">Save File Tracking</button>
+    </form>
+</div>
+{% endblock %}
+
+{% block scripts %}{% endblock %}

@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Admin Dashboard</h2>
+        <div class="row">
+        <div class="col-md-6">
+            <h4>Employees Per Company</h4>
+            <ul class="list-group mb-4">
+                {% for company, count in company_counts %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    {{ company }}
+                    <span class="badge bg-primary rounded-pill">{{ count }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <h4>Employee Distribution</h4>
+            <canvas id="companyChart"></canvas>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-12">
+            <h4>Files Taken Per Month</h4>
+            <canvas id="filesLineChart"></canvas>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script id="company-data" type="application/json">{{ chart_data|tojson }}</script>
+<script id="month-data" type="application/json">{{ line_chart_data|tojson }}</script>
+
+<script>
+    const data = JSON.parse(document.getElementById('company-data').textContent || '{}');
+    const ctx = document.getElementById('companyChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: data.labels,
+            datasets: [{
+                data: data.counts,
+                backgroundColor: [
+                    '#4e79a7', '#f28e2b', '#e15759', '#76b7b2', '#59a14f',
+                    '#edc948', '#b07aa1', '#ff9da7', '#9c755f', '#bab0ab'
+                ]
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: { legend: { position: 'bottom' } }
+        }
+    });
+    const lineData = JSON.parse(document.getElementById('month-data').textContent || '{}');
+    const lineCtx = document.getElementById('filesLineChart').getContext('2d');
+    new Chart(lineCtx, {
+        type: 'line',
+        data: {
+            labels: lineData.labels,
+            datasets: [{
+                label: 'Files Taken',
+                data: lineData.counts,
+                borderColor: '#4e79a7',
+                backgroundColor: 'rgba(78, 121, 167, 0.2)',
+                fill: true,
+            }]
+        },
+        options: { responsive: true, scales: { y: { beginAtZero: true } } }
+    });
+</script>
+{% endblock %}

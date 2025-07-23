@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2 class="text-center">Employee Details</h2>
+
+    <div class="card p-3 mb-3">
+        <h4>{{ employee[2] }} (Code: {{ employee[1] }})</h4>
+        <p><strong>Designation:</strong> {{ employee[3] }}</p>
+        <p><strong>Department:</strong> {{ employee[4] }}</p>
+        <p><strong>Unit:</strong> {{ employee[5] }}</p>
+
+        <div class="d-flex justify-content-around my-2">
+              {% if session['user_role'] in ['admin', 'super_admin'] %}
+                      <a href="/add_checklist/{{ employee[1] }}" class="btn btn-success btn-sm">Add Checklist</a>
+
+                      {% if tracking_records %}
+            <a href="/view_file_tracking/{{ employee[1] }}" class="btn btn-info btn-sm">View File Tracking History</a>
+            {% if session['user_role'] == 'super_admin' %}
+                <a href="/edit_file_tracking/{{ employee[1] }}" class="btn btn-danger btn-sm">Edit File Tracking</a>
+            {% endif %}
+        {% endif %}
+      {% endif %}
+
+            <a href="/add_file_tracking/{{ employee[1] }}" class="btn btn-warning btn-sm">Take/Return File</a>
+            <button id="lockerInfoBtn" class="btn btn-primary btn-sm">View Locker Info</button>
+        </div>
+        <!-- QR Code Section with Buttons -->
+        <div class="text-center my-3">
+            <h5>Employee QR Code</h5>
+            <img id="qrImage" src="/static/qr_codes/{{ employee[1] }}.png" alt="QR Code for {{ employee[1] }}" width="150">
+            <div class="mt-2">
+                <a href="/static/qr_codes/{{ employee[1] }}.png" download="QR_{{ employee[1] }}.png" class="btn btn-primary btn-sm">Download QR</a>
+                <button class="btn btn-secondary btn-sm" onclick="printQR()">Print QR</button>
+            </div>
+        </div>
+    </div>
+
+    <h4>Checklist Status</h4>
+    <ul class="list-group mb-3">
+        {% for item in checklist %}
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                {{ item.document_name }}
+                {% if item.is_submitted == 'Yes' %}
+                    <span class="badge bg-success">Submitted ✅</span>
+                {% else %}
+                    <span class="badge bg-danger">Missed ❌</span>
+                {% endif %}
+            </li>
+        {% endfor %}
+      </ul>
+</div>
+
+<!-- Locker Info Modal -->
+<div class="modal fade" id="lockerInfoModal" tabindex="-1" aria-labelledby="lockerInfoLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="lockerInfoLabel">Locker Information</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="lockerInfoContent">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+function printQR() {
+    var printWindow = window.open('', '_blank');
+    var qrImage = document.getElementById('qrImage').src;
+    printWindow.document.write('<img src="' + qrImage + '" width="300">');
+    printWindow.document.close();
+    printWindow.print();
+}
+</script>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script>
+$(function() {
+    $('#lockerInfoBtn').on('click', function() {
+        $.getJSON('/locker_info/{{ employee[1] }}', function(data) {
+            const message = data.match ?
+                'Locker Group: ' + data.group + ' | Locker Number: ' + data.locker :
+                'No locker assigned.';
+            $('#lockerInfoContent').text(message);
+            const modal = new bootstrap.Modal(document.getElementById('lockerInfoModal'));
+            modal.show();
+        });
+    });
+});
+</script>
+{% endblock %}

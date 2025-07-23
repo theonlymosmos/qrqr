@@ -1,0 +1,679 @@
+id,employee_code,name,designation,department,unit,epf,esi,joining_date,retirement_date,leaving_date,uan,detected_entity,company
+5,28214,Abhilash B C,,Finance,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+6,28388,Santhosh P U,,Finance,Admin Unit,,,,,,,,Manipal Digital Network Limited
+7,55727,Soujanya,,Finance,Compliance Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+8,45529,Manish Vasantlal Gujarathi,,Security,Admin Unit,,,,,,,,Manipal Media Network Limited
+9,28329,Nallur Avinash Ganapathi Kamath,,Logistics,Admin Unit,,,,,,,,Manipal Digital Network Limited
+10,28401,Lohith ,,IT,Network Unit,,,,,,,,Manipal Digital Network Limited
+11,11217,Kannada Bharathi Gunashekar Kannan,,HR,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+12,30811,Sudharshana ,,Security,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+13,30808,Supriya G Shenoy ,,Finance,Compliance Unit,,,,,,,,Canara Security Press Limited
+14,45217,Prasanna Chidanand Naik ,,Operations,Operations Unit,,,,,,,,Manipal Technologies Limited
+15,44200,Srikanth Acharya ,,Marketing,Data Entry Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+16,43197,Ravirama R [43197],,Finance,Admin Unit,,,,,,,,Manipal Media Network Limited
+17,43638,Gaurav Gautam ,,Operations,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+18,44761,Nitesh Rajratan Tenani ,,Security,Cybersecurity Unit,,,,,,,,Canara Security Press Limited
+19,11095,Vasanthi Prabhu [11095],,HR,Payroll Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+20,45308,Sowmya [45308],,Marketing,Data Entry Unit,,,,,,,,Manipal Technologies Limited
+21,20339,Babu M [20339],,Operations,Data Entry Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+22,15628,Sangamesha Ummaragi [15628],,Marketing,Data Entry Unit,,,,,,,,Manipal Media Network Limited
+23,41546,Roopesh ,,IT,Network Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+24,20323,Ashok B S [20323],,HR,Payroll Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+25,11022,Jestin George [11022],,Marketing,Data Entry Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+26,28170,Shankar Pagoji,,Logistics,Operations Unit,,,,,,,,Aromeo Brands Private Limited
+27,20811,Navinkumar Devappa Kodliwad,,Marketing,Sales Unit,,,,,,,,Manipal Energy & Infratech Limited
+28,28322,Kava Shivani Chandrahas,,Finance,Compliance Unit,,,,,,,,Manipal Energy & Infratech Limited
+29,15577,Samynathan P,,IT,Network Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+30,20441,Katarki Nandeshkumar,,Marketing,Data Entry Unit,,,,,,,,Manipal Digital Network Limited
+31,20753,Chandra T V Shekar,,Security,Admin Unit,,,,,,,,Manipal Media Network Limited
+32,20769,Bhimsen,,Logistics,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+33,40751,Shashikala,,IT,Cybersecurity Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+34,28148,Veerendra N,,Finance,Compliance Unit,,,,,,,,Manipal Digital Network Limited
+35,10357,Harisha Bhat,,Security,Admin Unit,,,,,,,,Manipal Digital Network Limited
+36,28166,Keerthi K S,,Operations,Operations Unit,,,,,,,,Manipal Energy & Infratech Limited
+37,28168,Suresh N S Kumar,,Marketing,Data Entry Unit,,,,,,,,Aromeo Brands Private Limited
+38,28318,Suresh H,,IT,Cybersecurity Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+39,28370,Shri Hari R Kalakeri,,Operations,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+40,28369,Akshaya K,,HR,Admin Unit,,,,,,,,Canara Security Press Limited
+41,28144,Mallappa Virupakshappa Masanal,,IT,Data Entry Unit,,,,,,,,Manipal Digital Network Limited
+42,28320,Vitala,,Marketing,Data Entry Unit,,,,,,,,Canara Security Press Limited
+43,10214,Hilary P Crasta,,Operations,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+44,28210,Chethan O R,,Operations,Operations Unit,,,,,,,,Manipal Technologies Limited
+45,41235,Ramakrishna K M,,HR,Payroll Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+46,28271,Rajendra A S,,Security,Cybersecurity Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+47,10242,Suresh A M,,HR,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+48,45280,Kirthana Nayak Sujir,,Marketing,Sales Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+49,10361,Praveen Kumar Tyagi,,Marketing,Data Entry Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+50,65730,Arvind Ganesh Mallya,,Operations,Operations Unit,,,,,,,,Manipal Digital Network Limited
+51,87029,Anuradha Vittal Puranik,,HR,Admin Unit,,,,,,,,Manipal Media Network Limited
+52,28356,Avinasha B [28356],,Marketing,Sales Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+53,28376,Venu Vinoda K S,,Finance,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+54,28391,Bharath M Kumar ,,IT,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+55,45061-EXIT,Vighnesha K M ,,Marketing,Data Entry Unit,,,,,,,,Canara Security Press Limited
+56,86098,Anupam Narendra Sinha,,Marketing,Sales Unit,,,,,,,,Manipal Media Network Limited
+57,55615,Sandesh D Kumar,,IT,Cybersecurity Unit,,,,,,,,Manipal Energy & Infratech Limited
+58,61282,Prakrithi S Rao,,Logistics,Operations Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+59,45465,Nitin Shantaram Jadhav,,Marketing,Data Entry Unit,,,,,,,,Canara Security Press Limited
+60,86117,Mahesh Manjunath Gouda,,Operations,Operations Unit,,,,,,,,Manipal Digital Network Limited
+61,45598,Gururaj Shetty,,HR,Payroll Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+62,EXIT-71038,Nagaraju K N,,Finance,Compliance Unit,,,,,,,,Manipal Energy & Infratech Limited
+63,40360,Rajgopal P Rao,,IT,Network Unit,,,,,,,,Manipal Technologies Limited
+64,11086,Dayananda M Shetty,,Operations,Data Entry Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+65,10254,Poornananda Shenoy,,HR,Payroll Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+66,44169,Pradiptha P,,Marketing,Sales Unit,,,,,,,,Canara Security Press Limited
+67,41578,Praveen Achary,,IT,Network Unit,,,,,,,,Aromeo Brands Private Limited
+68,11212,Deekshith G Raj,,Operations,Operations Unit,,,,,,,,Aromeo Brands Private Limited
+69,45366,Ramasamy A [45366],,Security,Cybersecurity Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+70,43314,Suraj [43314],,Logistics,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+71,EXIT-28079,Venkatesha S [28079],,Marketing,Data Entry Unit,,,,,,,,Manipal Media Network Limited
+72,OLD-10242,Suresh A M [10242],,Security,Admin Unit,,,,,,,,Manipal Technologies Limited
+73,42021,Siddaraju,,Security,Cybersecurity Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+74,44966,Rishbha Dev Shori [44966],,Finance,Admin Unit,,,,,,,,Manipal Technologies Limited
+75,11101,Sushmitha [11101],,Marketing,Data Entry Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+76,45584,Rajeshkumar Paraman [45584],,Logistics,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+77,86110,Prashanth V [86110],,IT,Network Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+78,44471,Nagaraj T R [44471],,Security,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+79,40430,Shankar Ganiga [40430],,Security,Admin Unit,,,,,,,,Manipal Technologies Limited
+80,44210,Ajay Kumar Devarinti ,,Finance,Compliance Unit,,,,,,,,Manipal Media Network Limited
+81,45080,Yathindra A G ,,IT,Cybersecurity Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+82,55507,Dilip Poojary ,,Operations,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+83,55301,Sandeep Naik,,Finance,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+84,11220,Prashanth S Gole,,Operations,Operations Unit,,,,,,,,Manipal Media Network Limited
+85,44360,Desikan R,,Operations,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+86,55049,Subrahmanya M Bhat ,,Marketing,Data Entry Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+87,30634,Abhishek ,,HR,Payroll Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+88,45483,John E Bosco ,,Finance,Compliance Unit,,,,,,,,Manipal Media Network Limited
+89,86127,Ruchir Shastri,,IT,Data Entry Unit,,,,,,,,Manipal Energy & Infratech Limited
+90,86128,Shashi Kant,,Marketing,Sales Unit,,,,,,,,Westtek Enterprises Private Limited
+91,86116,Chandrashekara Narayana Naik,,IT,Cybersecurity Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+92,30313,Manjunatha ,,IT,Cybersecurity Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+93,30695,Shibi Shetty ,,Security,Cybersecurity Unit,,,,,,,,Manipal Technologies Limited
+94,55529,Pavan U Shet ,,Operations,Operations Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+95,55340,Ganesh Kiran,,IT,Network Unit,,,,,,,,Aromeo Brands Private Limited
+96,44679,Sarojkanta Swain ,,Logistics,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+97,45023,Shripad Hanumantha Vore ,,Security,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+98,45573,Anvitha Gururaj Murthy,,Finance,Compliance Unit,,,,,,,,Westtek Enterprises Private Limited
+99,45455,Ravikant Aggarwal,,Logistics,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+100,EXIT28369,Akshaya K,,Marketing,Sales Unit,,,,,,,,Manipal Energy & Infratech Limited
+101,EXIT--28144,Mallappa Virupakshappa Masanal,,Marketing,Data Entry Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+102,EXIT--28320,Vitala-,,IT,Data Entry Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+103,EXIT--28210,Chethan O R-,,Security,Admin Unit,,,,,,,,Canara Security Press Limited
+104,EXIT--28271,Rajendra A S-EXIT,,Finance,Compliance Unit,,,,,,,,Canara Security Press Limited
+105,EXIT--41235,Ramakrishna K M,,HR,Payroll Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+106,EXIT--10214,Hilary P Crasta,,Marketing,Data Entry Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+107,EXIT--15630,Sudhir Sarjerao Power,,Operations,Data Entry Unit,,,,,,,,Canara Security Press Limited
+108,EXIT--28319,Vinay S Kumar,,HR,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+109,45276,Pranay B Kini,,Security,Admin Unit,,,,,,,,Manipal Digital Network Limited
+110,55141,Kamlesh Raghunath Sawant,,Logistics,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+111,45084,Manikantan P N ,,Marketing,Data Entry Unit,,,,,,,,Manipal Energy & Infratech Limited
+112,45564,N Arjun,,Operations,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+113,42330,Hariprasad Kamath  Ex Employee-22-06-2009,,HR,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+114,45239,Arunava Nayak,,IT,Cybersecurity Unit,,,,,,,,Canara Security Press Limited
+115,45514,Nikhil Nayak,,IT,Cybersecurity Unit,,,,,,,,Manipal Media Network Limited
+116,45187,Maneet Kaur ,,HR,Payroll Unit,,,,,,,,Manipal Media Network Limited
+117,44258,Melroy Antony Fernandes ,,Operations,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+118,EXIT-28170,Shankar Pagoji ,,Security,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+119,EXIT-28370,Shri Hari R Kalakeri,,Marketing,Data Entry Unit,,,,,,,,Manipal Media Network Limited
+120,EXIT-28322,Kava Shivani Chandrahas,,IT,Cybersecurity Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+121,EXIT-28318,Suresh H,,Security,Admin Unit,,,,,,,,Manipal Digital Network Limited
+122,EXIT-28168,Suresh N S Kumar ,,Security,Cybersecurity Unit,,,,,,,,Manipal Technologies Limited
+123,EXIT-28148,Veerendra N,,Operations,Operations Unit,,,,,,,,Manipal Media Network Limited
+124,EXIT-28199,Shivamallayya ,,Marketing,Data Entry Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+125,EXIT-40751,Shashikala,,Security,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+126,EXIT-20753,Chandra T V Shekar,,Finance,Admin Unit,,,,,,,,Manipal Digital Network Limited
+127,EXIT-20769,Bhimsen ,,IT,Data Entry Unit,,,,,,,,Canara Security Press Limited
+128,EXIT-20441,Katarki Nandeshkumar,,Security,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+129,EXIT-15577,Samynathan P,,Logistics,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+130,30614,Santhosh K Kumar,,Marketing,Data Entry Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+131,45549,Sunpreet Singh Dhanjal,,HR,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+132,28169,Mahantesh S T,,Marketing,Data Entry Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+133,28340,Anil M Kumar,,Logistics,Operations Unit,,,,,,,,Manipal Technologies Limited
+134,45069,Charishma C Shetty,,IT,Data Entry Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+135,30247,Ramesh ,,Finance,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+136,45068,Sapna N ,,Security,Cybersecurity Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+137,44319,Saravanakumar G  (Death ),,Finance,Compliance Unit,,,,,,,,Aromeo Brands Private Limited
+138,45404,Varun K ,,Security,Cybersecurity Unit,,,,,,,,Manipal Media Network Limited
+139,45405,Asavari Yathish,,IT,Network Unit,,,,,,,,Manipal Energy & Infratech Limited
+140,45513,Shilpa Shivananda Bhat,,Finance,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+141,43900,Sandesha,,Finance,Admin Unit,,,,,,,,Manipal Technologies Limited
+142,28176,Manikanth A R,,Security,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+143,28177,Satheesh Kumar S,,IT,Network Unit,,,,,,,,Manipal Digital Network Limited
+144,28171,Sadashiva K,,Finance,Compliance Unit,,,,,,,,Aromeo Brands Private Limited
+145,28264,Navaneeth Bhat,,Finance,Compliance Unit,,,,,,,,Manipal Digital Network Limited
+146,28331,Soundarya,,Finance,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+147,28165,Somashekhara C J,,Security,Cybersecurity Unit,,,,,,,,Aromeo Brands Private Limited
+148,28178,Manjunatha S,,Marketing,Sales Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+149,28172,Ganapathi Hegde,,Marketing,Sales Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+150,28164,Sathish Babu,,Finance,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+151,28393,Prakash D T,,Operations,Data Entry Unit,,,,,,,,Canara Security Press Limited
+152,28394,Avaneesha P K,,IT,Network Unit,,,,,,,,Manipal Energy & Infratech Limited
+153,28395,Ambarish Balacharya Hangal,,Security,Cybersecurity Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+154,28396,Sathyavathi,,Marketing,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+155,28397,Soumya C,,HR,Payroll Unit,,,,,,,,Manipal Technologies Limited
+156,28398,Ashwini C [28398],,Logistics,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+157,28399,Karegowda S R [28399],,Finance,Compliance Unit,,,,,,,,Manipal Energy & Infratech Limited
+158,28400,Rakesh N S [28400],,Security,Cybersecurity Unit,,,,,,,,Manipal Media Network Limited
+159,42012,Dale Jackson Bangera,,Logistics,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+160,61283,Ashish Kunder,,Security,Cybersecurity Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+161,15562,Anil Baddi,,IT,Data Entry Unit,,,,,,,,Manipal Digital Network Limited
+162,14005,K Shruthi,,Marketing,Sales Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+163,45301,Deepak Kumar,,Finance,Compliance Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+164,42683,Vinayak G S,,Security,Admin Unit,,,,,,,,Manipal Technologies Limited
+165,45562,Yaddalapudi Sudhakar,,IT,Data Entry Unit,,,,,,,,Manipal Technologies Limited
+166,45521,Ujwal K Kotian,,HR,Payroll Unit,,,,,,,,Manipal Energy & Infratech Limited
+167,30862,Chandrakala R,,Security,Cybersecurity Unit,,,,,,,,Manipal Energy & Infratech Limited
+168,45369,Praveen Kumar,,Operations,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+169,15572,Ravikiran [15572]-exit-dtd 21-04-2019,,IT,Cybersecurity Unit,,,,,,,,Manipal Media Network Limited
+170,45398,Vishwaraj Sanjeeva Karkera,,Marketing,Data Entry Unit,,,,,,,,Manipal Media Network Limited
+171,30501,Prashantha,,Finance,Admin Unit,,,,,,,,Canara Security Press Limited
+172,44794,Ranjith S,,Finance,Compliance Unit,,,,,,,,Manipal Media Network Limited
+173,45557,Gangadhar Nagarale,,Logistics,Operations Unit,,,,,,,,Westtek Enterprises Private Limited
+174,30824,Syed Ajmal,,Operations,Data Entry Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+175,45305,Pradip Kumar Mishra,,HR,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+176,44594,Sharath Poojary,,Finance,Compliance Unit,,,,,,,,Manipal Energy & Infratech Limited
+177,28267,Ramesha B -EX,,Finance,Compliance Unit,,,,,,,,Westtek Enterprises Private Limited
+178,28353,Shivamadhu N L -EX,,Finance,Compliance Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+179,28235,Preeti Raghavendra Bhat,,Marketing,Sales Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+180,30867,Aarti Hamsabhai Koya,,Finance,Compliance Unit,,,,,,,,Westtek Enterprises Private Limited
+181,55268,Sandesh Kotian,,Security,Cybersecurity Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+182,28296,Vinaya Shetty,,Marketing,Data Entry Unit,,,,,,,,Canara Security Press Limited
+183,45543,Ajay,,HR,Admin Unit,,,,,,,,Canara Security Press Limited
+184,45534,Prashant Choubey,,Operations,Operations Unit,,,,,,,,Manipal Technologies Limited
+185,44539,Anand K,,Finance,Admin Unit,,,,,,,,Manipal Technologies Limited
+186,30698,Roshan,,Finance,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+187,85055,Vittala Nayak,,Marketing,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+188,10356,Venugopal Ramayya Prabhu,,HR,Payroll Unit,,,,,,,,Aromeo Brands Private Limited
+189,55605,Arvind Laxman Baikar,,Finance,Compliance Unit,,,,,,,,Manipal Media Network Limited
+190,41357,Ramesh Devadiga,,Logistics,Operations Unit,,,,,,,,Canara Security Press Limited
+191,30725,Prashant Mahesh Manjrekar,,Security,Cybersecurity Unit,,,,,,,,Manipal Technologies Limited
+192,45450,N Sakthivel,,Logistics,Operations Unit,,,,,,,,Manipal Media Network Limited
+193,11222,Anand Subramaniayam,,IT,Network Unit,,,,,,,,Canara Security Press Limited
+194,43853,Nagaraja Hegde,,Finance,Compliance Unit,,,,,,,,Manipal Technologies Limited
+195,55333,Ramanath Pai,,Finance,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+196,45295,Mandar Sureshchandra Godbole,,Marketing,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+197,11114,Manoj,,IT,Data Entry Unit,,,,,,,,Aromeo Brands Private Limited
+198,43614,Srinivas A G,,HR,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+199,42426,Prakash Prabhu Gurpur,,HR,Admin Unit,,,,,,,,Manipal Technologies Limited
+200,44261,Ronald D Souza,,IT,Data Entry Unit,,,,,,,,Canara Security Press Limited
+201,43578,Shivaprasad P G,,Logistics,Operations Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+202,44832,Chandrashekhar Mukund Gaunekar,,Marketing,Data Entry Unit,,,,,,,,Manipal Energy & Infratech Limited
+203,55739,Abhishek J Acharya,,Logistics,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+204,43264,Kishor Acharya,,Operations,Operations Unit,,,,,,,,Westtek Enterprises Private Limited
+205,30868,Raghav Saxena,,Finance,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+206,41983,Ganesh Nayak,,Marketing,Sales Unit,,,,,,,,Aromeo Brands Private Limited
+207,44560,Sukhesh,,HR,Payroll Unit,,,,,,,,Manipal Digital Network Limited
+208,43040,Ramakant Yadav,,IT,Cybersecurity Unit,,,,,,,,Canara Security Press Limited
+209,44992,Evlyn B Swarnalatha,,Security,Cybersecurity Unit,,,,,,,,Aromeo Brands Private Limited
+210,55450,Priyanka Parab ,,Security,Admin Unit,,,,,,,,Manipal Digital Network Limited
+211,55584,Sandeep Achari,,Marketing,Sales Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+212,55272,Anupama K N,,Logistics,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+213,11229,Amarnath V Kamath,,IT,Cybersecurity Unit,,,,,,,,Manipal Media Network Limited
+214,43353,Mahesha,,Marketing,Sales Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+215,45551,Debasmita Kar,,Operations,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+216,55614,Harshil Jitendrakumar Panchal ,,IT,Data Entry Unit,,,,,,,,Canara Security Press Limited
+217,55459,Rakesh Nakti,,Finance,Compliance Unit,,,,,,,,Manipal Technologies Limited
+218,55148,Shelar Vaibhav Suryakant,,Operations,Operations Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+219,45620,Sandeep R,,Finance,Compliance Unit,,,,,,,,Westtek Enterprises Private Limited
+220,44877,Nithin Kumar,,HR,Admin Unit,,,,,,,,Canara Security Press Limited
+221,42105,Prasanna Kumari,,Security,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+222,45569,Vishwas,,Finance,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+223,28181,Haleemath Saadiya,,Finance,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+224,28187,Dhananjaya R,,Finance,Compliance Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+225,28220,Anand Bhajantri,,Security,Cybersecurity Unit,,,,,,,,Manipal Digital Network Limited
+226,28327,Manjunatha Keri,,Logistics,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+227,28402,Gurumurthy M N ,,Security,Cybersecurity Unit,,,,,,,,Canara Security Press Limited
+228,28403,Chandan V ,,Security,Cybersecurity Unit,,,,,,,,Canara Security Press Limited
+229,28404,Yogeshwar M A,,Logistics,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+230,28405,Vishwanath M Gaidhanakar ,,IT,Cybersecurity Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+231,14008,Pranav M S ,,Logistics,Admin Unit,,,,,,,,Manipal Digital Network Limited
+232,30873,Anu Thomas,,Operations,Data Entry Unit,,,,,,,,Manipal Technologies Limited
+233,30874,Sunil S Kumar ,,Logistics,Operations Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+234,30852,Likithabai B K,,Security,Cybersecurity Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+235,30831,Mohammed Salman,,IT,Network Unit,,,,,,,,Westtek Enterprises Private Limited
+236,30825,Khalid Mohamed,,Operations,Data Entry Unit,,,,,,,,Manipal Energy & Infratech Limited
+237,77003,Cletus P V,,Operations,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+238,77128,Shiny Paul,,Operations,Operations Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+239,77134,Deepesh M V,,Marketing,Sales Unit,,,,,,,,Manipal Media Network Limited
+240,44756,Tharanath K,,Security,Cybersecurity Unit,,,,,,,,Manipal Technologies Limited
+241,45161,Ranjitha Mallya,,Operations,Operations Unit,,,,,,,,Manipal Energy & Infratech Limited
+242,45550,Rishabh Dhaila,,Logistics,Operations Unit,,,,,,,,Manipal Digital Network Limited
+243,28406,Pramod Sagarad,,Logistics,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+244,28407,Vinod Shetty,,IT,Network Unit,,,,,,,,Manipal Media Network Limited
+245,14009,Ravi Kiran,,HR,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+246,44666,Vishwanath Acharya,,Finance,Compliance Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+247,45680,Girish S ,,IT,Network Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+248,30749,Joyson Lesly Fernandes,,IT,Cybersecurity Unit,,,,,,,,Manipal Digital Network Limited
+249,45303,Pranamya,,HR,Admin Unit,,,,,,,,Manipal Digital Network Limited
+250,41866,Ramanan K,,Security,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+251,71048,Shivam Srivastava,,IT,Network Unit,,,,,,,,Manipal Technologies Limited
+252,15626,Suresha,,Marketing,Sales Unit,,,,,,,,Manipal Media Network Limited
+253,15627,Shivaraj,,IT,Network Unit,,,,,,,,Westtek Enterprises Private Limited
+254,15629,B Ravi,,Operations,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+255,15630,Sudhir Sarjerao Power,,IT,Cybersecurity Unit,,,,,,,,Manipal Energy & Infratech Limited
+256,43479,Suraj Rajendra Naik,,Logistics,Operations Unit,,,,,,,,Manipal Energy & Infratech Limited
+257,40663,Sumathi,,Logistics,Operations Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+258,11065,Suresh Naik,,HR,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+259,44801,Praveen B C,,Finance,Admin Unit,,,,,,,,Manipal Digital Network Limited
+260,11006,Padmavathi Amin,,Logistics,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+261,11181,Prasada,,Operations,Data Entry Unit,,,,,,,,Aromeo Brands Private Limited
+262,45185,Kiran T Prabhu,,HR,Payroll Unit,,,,,,,,Canara Security Press Limited
+263,45324,Deepti Kudva,,Logistics,Operations Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+264,45555,Parvin Sharma,,Security,Cybersecurity Unit,,,,,,,,Manipal Digital Network Limited
+265,55653,Gowtham,,Marketing,Sales Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+266,55746,Chirag Chinnaya Salian,,Operations,Operations Unit,,,,,,,,Manipal Energy & Infratech Limited
+267,45520,Deepak V,,Security,Admin Unit,,,,,,,,Manipal Technologies Limited
+268,15521,Gladson M Jathanna,,IT,Network Unit,,,,,,,,Manipal Energy & Infratech Limited
+269,43639,Varija,,Finance,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+270,28330,Manosh Kumar N,,IT,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+271,45572,Dheeraj Hebbar,,Finance,Compliance Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+272,43539,Shashikantha,,IT,Cybersecurity Unit,,,,,,,,Manipal Technologies Limited
+273,30838,Simran Alexander,,HR,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+274,41974,Umesha Naik,,Marketing,Sales Unit,,,,,,,,Canara Security Press Limited
+275,85038,Sharada Palagummi,,Logistics,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+276,44118,Barbole Sushil Shahaji,,Finance,Compliance Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+277,41669,Santhosha Kumara,,Finance,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+278,41741,Jayanthi Nayak,,Logistics,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+279,41743,Supreeth Kumar K,,Operations,Data Entry Unit,,,,,,,,Manipal Energy & Infratech Limited
+280,41784,Anitha,,IT,Network Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+281,42331,Harish Shetty,,Marketing,Data Entry Unit,,,,,,,,Manipal Digital Network Limited
+282,43759,Ramya,,Logistics,Operations Unit,,,,,,,,Canara Security Press Limited
+283,45480,Mahesh G,,Marketing,Data Entry Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+284,45594,Ganesh Rao,,Security,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+285,28312,Manjunath B N,,Operations,Operations Unit,,,,,,,,Manipal Media Network Limited
+286,28408,Madvi M,,Operations,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+287,20076,Rahul K Rao,,IT,Network Unit,,,,,,,,Aromeo Brands Private Limited
+288,30483,Chandrakant Patgar,,IT,Cybersecurity Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+289,45522,Indrajith Tamilmani,,Operations,Data Entry Unit,,,,,,,,Canara Security Press Limited
+290,28268,Chaithresh C,,HR,Admin Unit,,,,,,,,Manipal Technologies Limited
+291,28186,Ananthanag N,,Finance,Compliance Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+292,28022,Vijaykumar Chandaragi,,Logistics,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+293,28068,Rafeek Ahammad,,Finance,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+294,28070,Lakshminarayana S,,HR,Payroll Unit,,,,,,,,Manipal Technologies Limited
+295,28072,K Pruthvijith,,Operations,Data Entry Unit,,,,,,,,Canara Security Press Limited
+296,28076,Ravi Prakash,,Finance,Compliance Unit,,,,,,,,Aromeo Brands Private Limited
+297,28089,Bhogesha M R,,HR,Admin Unit,,,,,,,,Manipal Digital Network Limited
+298,28091,Harisha H R,,Finance,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+299,28054,Banashankararadhya K S,,Logistics,Admin Unit,,,,,,,,Manipal Technologies Limited
+300,28313,Sunil V,,Operations,Data Entry Unit,,,,,,,,Canara Security Press Limited
+301,85017,Ganesh Pai,,Finance,Compliance Unit,,,,,,,,Manipal Technologies Limited
+302,86136,Gagandeep,,Marketing,Sales Unit,,,,,,,,Manipal Technologies Limited
+303,85044,Shashidhar K Kotian,,HR,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+304,45241,Rajkumar Nataraj,,Logistics,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+305,30371,Mahesh Kumar,,Finance,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+306,45515,Vidya,,HR,Payroll Unit,,,,,,,,Canara Security Press Limited
+307,45339,Rashmitha Shanbhag,,Marketing,Sales Unit,,,,,,,,Manipal Media Network Limited
+308,42698,Manorama Kamath,,IT,Cybersecurity Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+309,55742,Suraj S Amin,,Operations,Data Entry Unit,,,,,,,,Manipal Energy & Infratech Limited
+310,45614,Reetesh Srivastava,,HR,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+311,44788,Rahmathullah,,Operations,Data Entry Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+312,30582,Savitha,,Security,Admin Unit,,,,,,,,Manipal Technologies Limited
+313,45299,Nandlal Ashok Gupta,,HR,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+314,55711,Meghana G,,IT,Cybersecurity Unit,,,,,,,,Manipal Technologies Limited
+315,28217,Ramachandra M,,Marketing,Data Entry Unit,,,,,,,,Manipal Digital Network Limited
+316,41468,Shakunthala U,,Operations,Operations Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+317,30457,Jossly Sandra Jathanna,,IT,Network Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+318,45287,Pawan Kumar Bugaliya,,Security,Cybersecurity Unit,,,,,,,,Aromeo Brands Private Limited
+319,43117,Satheesha,,Logistics,Admin Unit,,,,,,,,Manipal Media Network Limited
+320,55156,Ganesh Rajaram Rane,,Finance,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+321,45168,Chandan Kumar,,Logistics,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+322,20277,Rita Urmila Furtado,,Logistics,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+323,45233,Chunduri Madhu Sudhana Rao,,Finance,Admin Unit,,,,,,,,Manipal Digital Network Limited
+324,85054,Pranay Sabharwal,,Finance,Compliance Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+325,45622,Josline Marina Dsouza,,Marketing,Data Entry Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+326,71065,Amit Ramgirah Gaud,,IT,Data Entry Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+327,44235,Darshan Jaya Kotian,,Finance,Compliance Unit,,,,,,,,Canara Security Press Limited
+328,44193,Anup S Siddanur,,Security,Cybersecurity Unit,,,,,,,,Canara Security Press Limited
+329,45539,Vishruthi V Kotian,,Operations,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+330,43612,Usharani,,Security,Cybersecurity Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+331,28066,Niranjan M R,,HR,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+332,28101,Deepak,,Marketing,Sales Unit,,,,,,,,Manipal Media Network Limited
+333,28192,Mohan N Kumar,,Logistics,Operations Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+334,28194,Raju Kharvi,,HR,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+335,28270,Sathish R,,Logistics,Operations Unit,,,,,,,,Manipal Technologies Limited
+336,28337,Chethan,,Logistics,Operations Unit,,,,,,,,Manipal Technologies Limited
+337,28336,Deepak Bhat,,Operations,Operations Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+338,20743,Sairam Y Pawar,,Marketing,Sales Unit,,,,,,,,Manipal Technologies Limited
+339,71060,Yathin Kumar N,,Marketing,Data Entry Unit,,,,,,,,Manipal Technologies Limited
+340,61297,Shreyas J Rao,,Marketing,Data Entry Unit,,,,,,,,Manipal Media Network Limited
+341,45472,Deepak Singh ,,HR,Payroll Unit,,,,,,,,Canara Security Press Limited
+342,55691,Kiran Arjun Bolake,,Marketing,Sales Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+343,45670,Madhukara,,IT,Cybersecurity Unit,,,,,,,,Manipal Digital Network Limited
+344,45294,Niveditha R Shetty,,HR,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+345,44916,Prasanna,,Operations,Data Entry Unit,,,,,,,,Manipal Energy & Infratech Limited
+346,30822,Shubhomoy Dasgupta,,HR,Admin Unit,,,,,,,,Manipal Technologies Limited
+347,20153,Praveen Kumar S,,Operations,Data Entry Unit,,,,,,,,Canara Security Press Limited
+348,20860,Manjunath,,Security,Cybersecurity Unit,,,,,,,,Westtek Enterprises Private Limited
+349,20855,Fakkiresh B Halemani,,Operations,Operations Unit,,,,,,,,Canara Security Press Limited
+350,11032,Shrikanth,,Logistics,Admin Unit,,,,,,,,Manipal Technologies Limited
+351,45613,Adarsh Shetty,,Operations,Data Entry Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+352,30669,Pranesh Kalmane,,IT,Cybersecurity Unit,,,,,,,,Canara Security Press Limited
+353,45654,Deepak,,Operations,Operations Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+354,28155,Shruthi T,,Logistics,Operations Unit,,,,,,,,Aromeo Brands Private Limited
+355,30742,Ganesh Krishna Mesta ,,Logistics,Admin Unit,,,,,,,,Manipal Technologies Limited
+356,26109,Devanand Sangavi,,Logistics,Operations Unit,,,,,,,,Aromeo Brands Private Limited
+357,55745,Suraksha K N,,Marketing,Data Entry Unit,,,,,,,,Manipal Technologies Limited
+358,42550,Naveen Saldhana,,IT,Network Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+359,30876,Pammy Prakash Salian ,,IT,Data Entry Unit,,,,,,,,Manipal Technologies Limited
+360,86133,Ramesh Kisan Kamble,,Security,Cybersecurity Unit,,,,,,,,Manipal Digital Network Limited
+361,30855,Srinidhi Sukshith Shetty,,Operations,Data Entry Unit,,,,,,,,Manipal Energy & Infratech Limited
+362,45325,Sahana,,HR,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+363,44826,Naveen Jagadeesh Prabhu,,IT,Network Unit,,,,,,,,Manipal Media Network Limited
+364,44777,Shrutha Thejas,,Finance,Compliance Unit,,,,,,,,Canara Security Press Limited
+365,45177,Roshni Quirne D Souza,,Security,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+366,87033,Sakshi Sinha,,Finance,Compliance Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+367,45660,Prajwal Shervegar,,IT,Data Entry Unit,,,,,,,,Aromeo Brands Private Limited
+368,45274,Arpit Jain,,Operations,Data Entry Unit,,,,,,,,Manipal Media Network Limited
+369,42877,Rajesha Naik,,Marketing,Data Entry Unit,,,,,,,,Manipal Media Network Limited
+370,41723,Prema,,Operations,Data Entry Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+371,61287,Vikas R Shetty,,Marketing,Sales Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+372,28335,Mahesh Patil,,Marketing,Data Entry Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+373,28274,Sachin Nayak,,Marketing,Data Entry Unit,,,,,,,,Canara Security Press Limited
+374,44790,Anusha V K,,Operations,Operations Unit,,,,,,,,Manipal Energy & Infratech Limited
+375,45431,Kiran Kumar,,Finance,Compliance Unit,,,,,,,,Westtek Enterprises Private Limited
+376,28410,Rithesh,,Security,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+377,28411,Nagarajappa P,,Operations,Operations Unit,,,,,,,,Aromeo Brands Private Limited
+378,28412,Nandakumar S N,,Operations,Data Entry Unit,,,,,,,,Manipal Digital Network Limited
+379,28414,Jagadish Ganappa Bairikoppa,,Finance,Admin Unit,,,,,,,,Canara Security Press Limited
+380,28415,Akshay P N Kumar,,Marketing,Sales Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+381,28416,Anudeep N,,Marketing,Sales Unit,,,,,,,,Aromeo Brands Private Limited
+382,28417,Narsoji Rao,,Logistics,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+383,28378,Girisha G Y,,HR,Payroll Unit,,,,,,,,Westtek Enterprises Private Limited
+384,30744,Ranjan Kumar,,HR,Admin Unit,,,,,,,,Manipal Technologies Limited
+385,45599,Sanjay Dutt Tripathi,,Finance,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+386,30810,Joyal Regan Vas,,Finance,Compliance Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+387,30870,Sachin S Karkera,,Operations,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+388,86129,Manoj,,Logistics,Admin Unit,,,,,,,,Manipal Media Network Limited
+389,86130,Sushan P Poojary,,IT,Data Entry Unit,,,,,,,,Manipal Media Network Limited
+390,30337,Satheesha Achary,,IT,Network Unit,,,,,,,,Canara Security Press Limited
+391,43374,Sandya,,Finance,Compliance Unit,,,,,,,,Manipal Energy & Infratech Limited
+392,42851,Shivaraj,,HR,Payroll Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+393,45699,Shrishail,,Operations,Operations Unit,,,,,,,,Manipal Media Network Limited
+394,20460,M Vijayalakshmi,,Logistics,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+395,45282,Narasimha Achary,,Operations,Operations Unit,,,,,,,,Manipal Energy & Infratech Limited
+396,10348,Jayarama Karanth Kanthavar,,Operations,Data Entry Unit,,,,,,,,Aromeo Brands Private Limited
+397,45659,H Padmanabha Gadiyar,,HR,Payroll Unit,,,,,,,,Manipal Media Network Limited
+398,45597,Jyotsna Sweedle Dsilva,,Marketing,Data Entry Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+399,30709,Prameela,,Operations,Data Entry Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+400,61275,Nithin,,HR,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+401,45596,Atul Jayant Kamat,,HR,Payroll Unit,,,,,,,,Manipal Media Network Limited
+402,45490,Karthik Ravi Sherigar,,Security,Cybersecurity Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+403,53265,Sowmyashree,,HR,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+404,45032,Shiva Prasada,,HR,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+405,45053,Ajithkumar B,,Security,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+406,45108,S Thirumalai,,HR,Admin Unit,,,,,,,,Manipal Media Network Limited
+407,45268,Rajith V V,,Logistics,Operations Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+408,45411,Shri Hari Rao,,Finance,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+409,45517,Sudesh R,,Finance,Compliance Unit,,,,,,,,Manipal Digital Network Limited
+410,45488,Nithin Raj,,Marketing,Data Entry Unit,,,,,,,,Manipal Media Network Limited
+411,43230,Prasanna B Kamath,,Logistics,Operations Unit,,,,,,,,Canara Security Press Limited
+412,44004,Ravichandra R Shetty,,Marketing,Sales Unit,,,,,,,,Manipal Media Network Limited
+413,44146,Jayaprasada Shetty,,IT,Network Unit,,,,,,,,Manipal Digital Network Limited
+414,44263,Supritha,,Security,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+415,45024,Narendra H Pai,,Marketing,Sales Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+416,11120,Amitha,,Security,Cybersecurity Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+417,11121,Raghavendra Prabhu,,Logistics,Operations Unit,,,,,,,,Manipal Technologies Limited
+418,30301,Purushotham,,Marketing,Data Entry Unit,,,,,,,,Canara Security Press Limited
+419,30232,Venkataramana M Prabhu,,Operations,Data Entry Unit,,,,,,,,Manipal Digital Network Limited
+420,41493,Madhava Gowda,,Operations,Operations Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+421,45208,Quentin Passanha,,Finance,Admin Unit,,,,,,,,Manipal Digital Network Limited
+422,43229,Neetha Ganesh,,Operations,Data Entry Unit,,,,,,,,Manipal Media Network Limited
+423,44179,Disha G Shetty,,Security,Cybersecurity Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+424,45586,Ashmitha Shetty,,Logistics,Operations Unit,,,,,,,,Aromeo Brands Private Limited
+425,80385,Narayana Devadiga,,Finance,Compliance Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+426,20015,Santhosh,,Finance,Compliance Unit,,,,,,,,Manipal Energy & Infratech Limited
+427,44406,Archana A,,Finance,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+428,44389,Guruprasad Shenoy,,Logistics,Operations Unit,,,,,,,,Manipal Media Network Limited
+429,20002,Roopashree K,,Security,Admin Unit,,,,,,,,Canara Security Press Limited
+430,44844,Rashmi Devadiga,,Security,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+431,45528,Sowmya Nayak,,Security,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+432,45288,Renjith R S,,Finance,Admin Unit,,,,,,,,Manipal Technologies Limited
+433,45271,Rakshit,,Marketing,Sales Unit,,,,,,,,Westtek Enterprises Private Limited
+434,45264,Navaneeth Walter,,Finance,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+435,44399,Rajesha,,HR,Payroll Unit,,,,,,,,Westtek Enterprises Private Limited
+436,45317,Asif Khan,,HR,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+437,43792,Binod Kumar Mandal,,Logistics,Operations Unit,,,,,,,,Manipal Digital Network Limited
+438,43954,Aishwarya J Acharya,,Logistics,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+439,44814,Shruthi Kamath,,Security,Cybersecurity Unit,,,,,,,,Manipal Energy & Infratech Limited
+440,41208,Kusuma [41208],,IT,Cybersecurity Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+441,55444,Reena Aniket Sawant,,Security,Admin Unit,,,,,,,,Manipal Technologies Limited
+442,11226,Roopa Pai,,Logistics,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+443,30877,Tanam Japamala,,Marketing,Sales Unit,,,,,,,,Canara Security Press Limited
+444,41873,Sumathi,,Marketing,Sales Unit,,,,,,,,Manipal Media Network Limited
+445,40316,Shakunthala,,Security,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+446,40303,Vasanthi Shetty,,Finance,Compliance Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+447,40312,Ashalatha,,HR,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+448,30875,Deepak Ramsamujh Yadav,,Operations,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+449,86104,A Kumara Subramanian,,Security,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+450,30871,Rashmi Kamath,,Logistics,Operations Unit,,,,,,,,Manipal Energy & Infratech Limited
+451,30865,Akshay Neil Ignetto,,IT,Data Entry Unit,,,,,,,,Manipal Technologies Limited
+452,44976,Gaurav Kumar,,Logistics,Admin Unit,,,,,,,,Canara Security Press Limited
+453,45617,Dinesh Rathinam,,HR,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+454,45678,Rohit Agarwal,,Security,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+455,45449,Reema Shiny Correa,,Logistics,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+456,43326,Shaun Peter Vaz,,Marketing,Data Entry Unit,,,,,,,,Manipal Technologies Limited
+457,28281,Shivaraj M H,,Security,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+458,28280,Nanjundegowda N,,Logistics,Operations Unit,,,,,,,,Canara Security Press Limited
+459,58182,Nawman Baig,,IT,Network Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+460,45595,Nidhi Sharma,,Marketing,Sales Unit,,,,,,,,Canara Security Press Limited
+461,28422,Shubha B S,,HR,Admin Unit,,,,,,,,Manipal Technologies Limited
+462,28420,Kiran L Kumar,,Logistics,Operations Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+463,28419,Karthik,,IT,Cybersecurity Unit,,,,,,,,Manipal Digital Network Limited
+464,28418,Vasantha Kumar,,IT,Network Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+465,30763,Satishchandra S,,HR,Payroll Unit,,,,,,,,Aromeo Brands Private Limited
+466,42524,Nilesh S Acharya,,HR,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+467,28122,Aravinda Navada,,HR,Payroll Unit,,,,,,,,Aromeo Brands Private Limited
+468,10307,P V Mallya,,IT,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+469,28357,Janardana K,,Marketing,Sales Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+470,28354,Ashwitha,,Finance,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+471,28366,Hemachandra Suvarna,,Finance,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+472,28377,Suryakant Jamadar,,HR,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+473,28383,Hanumant Kalburgi,,IT,Data Entry Unit,,,,,,,,Manipal Energy & Infratech Limited
+474,28202,Ganapathi Krishna Mogaveera,,IT,Network Unit,,,,,,,,Westtek Enterprises Private Limited
+475,45523,Kamalakannan K G,,Logistics,Admin Unit,,,,,,,,Canara Security Press Limited
+476,42727,Ravi R Kumar,,Logistics,Operations Unit,,,,,,,,Canara Security Press Limited
+477,55208,Sandesha,,Security,Admin Unit,,,,,,,,Manipal Digital Network Limited
+478,44913,Sujay Kumar K M,,HR,Payroll Unit,,,,,,,,Westtek Enterprises Private Limited
+479,45677,Prashant Kumar,,Logistics,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+480,45475,Brijesh Kumar Das,,Marketing,Data Entry Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+481,45206,Surender Sharma,,IT,Cybersecurity Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+482,30819,Precilla Shilu Ebenezer Joseph,,Operations,Operations Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+483,45163,Nikhil S Bangera,,Operations,Data Entry Unit,,,,,,,,Manipal Digital Network Limited
+484,55445,Sangram Kamble,,Logistics,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+485,30787,Navin Kumar Mudidana,,Security,Cybersecurity Unit,,,,,,,,Manipal Digital Network Limited
+486,15633,Srinivas K Kumar ,,Operations,Data Entry Unit,,,,,,,,Canara Security Press Limited
+487,10196,P V Mallya,,IT,Network Unit,,,,,,,,Canara Security Press Limited
+488,45667,Ashik Kumar,,HR,Admin Unit,,,,,,,,Manipal Digital Network Limited
+489,45745,Shreyas Naik ,,Logistics,Operations Unit,,,,,,,,Manipal Technologies Limited
+490,30878,Dhiraj Subhash Shewale,,Operations,Operations Unit,,,,,,,,Manipal Media Network Limited
+491,55734,Amruta Eknath Shelke,,Operations,Data Entry Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+492,55353,Kishore Kumar,,Finance,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+493,45419,S Mahammad Suhel,,Marketing,Data Entry Unit,,,,,,,,Canara Security Press Limited
+494,45733,Homiyar Jamshed Sukheswala,,Marketing,Data Entry Unit,,,,,,,,Manipal Technologies Limited
+495,45734,Sudhakar Vellore Ramamurthy,,Security,Cybersecurity Unit,,,,,,,,Aromeo Brands Private Limited
+496,55562,Praveen Venkatesh Kini,,Marketing,Data Entry Unit,,,,,,,,Manipal Technologies Limited
+497,30067,Sujatha M K,,Finance,Compliance Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+498,44232,Dinesha,,HR,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+499,55307,Mahima Bhandari,,Logistics,Admin Unit,,,,,,,,Canara Security Press Limited
+500,45778,Prathika,,Operations,Operations Unit,,,,,,,,Manipal Energy & Infratech Limited
+501,11082,Kumara K A,,IT,Data Entry Unit,,,,,,,,Manipal Technologies Limited
+502,43851,Prithvi M P,,Finance,Compliance Unit,,,,,,,,Aromeo Brands Private Limited
+503,44171,Aneesh Kumar,,HR,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+504,61298,Shubham Chandrakant Sonawane ,,Operations,Operations Unit,,,,,,,,Aromeo Brands Private Limited
+505,44760,Keerthy V M,,Security,Admin Unit,,,,,,,,Manipal Media Network Limited
+506,45743,Raj Nagar ,,Operations,Data Entry Unit,,,,,,,,Manipal Media Network Limited
+507,41139,Koragu Naika,,Security,Admin Unit,,,,,,,,Canara Security Press Limited
+508,41849,Sundar Poojary,,Logistics,Operations Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+509,45704,Chandana R Tikoti ,,Security,Cybersecurity Unit,,,,,,,,Manipal Technologies Limited
+510,45674,Anuradha Vittal Puranik [,,Finance,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+511,24015,Jagadish Shetty ,,Marketing,Data Entry Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+512,40301,Sulochana,,Finance,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+513,40449,Jayanthi Poojarthi,,Logistics,Operations Unit,,,,,,,,Aromeo Brands Private Limited
+514,40681,Nagesh Askekar,,Finance,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+515,40739,Sumathi,,Security,Cybersecurity Unit,,,,,,,,Manipal Digital Network Limited
+516,40936,Umesha Nayak,,Security,Cybersecurity Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+517,40977,Latha P,,Security,Cybersecurity Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+518,41394,Sukanya,,Finance,Admin Unit,,,,,,,,Manipal Technologies Limited
+519,41530,Rajani,,Security,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+520,41797,Surendra Achari,,Finance,Compliance Unit,,,,,,,,Manipal Energy & Infratech Limited
+521,41798,Sandesh,,Operations,Operations Unit,,,,,,,,Westtek Enterprises Private Limited
+522,41885,Balakrishna Kamath,,HR,Admin Unit,,,,,,,,Canara Security Press Limited
+523,42799,Ananda,,IT,Network Unit,,,,,,,,Aromeo Brands Private Limited
+524,42842,Vikesh,,IT,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+525,42872,Amith Kumar,,IT,Network Unit,,,,,,,,Canara Security Press Limited
+526,43786,Laxman,,IT,Network Unit,,,,,,,,Westtek Enterprises Private Limited
+527,45526,S K Sajudar Rahaman,,Operations,Operations Unit,,,,,,,,Manipal Energy & Infratech Limited
+528,42875,Kalavathi N Nayak,,Security,Cybersecurity Unit,,,,,,,,Aromeo Brands Private Limited
+529,55756,Ritesh ,,Logistics,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+530,55753,Mohan R Kumar,,Operations,Operations Unit,,,,,,,,Manipal Technologies Limited
+531,45646,Sunil S,,Security,Cybersecurity Unit,,,,,,,,Aromeo Brands Private Limited
+532,45771,Girija Shankar Sahoo ,,Finance,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+533,28359,Suresha,,Operations,Data Entry Unit,,,,,,,,Manipal Media Network Limited
+534,28358,Veerabhadraswamy N M,,HR,Admin Unit,,,,,,,,Manipal Digital Network Limited
+535,28361,Prabhuling Shrikant Khot,,Security,Cybersecurity Unit,,,,,,,,Canara Security Press Limited
+536,28360,Veerabhadrayya Neeralagimath,,Marketing,Sales Unit,,,,,,,,Aromeo Brands Private Limited
+537,28363,Nagayya Basavaraj Neeralagimath,,Logistics,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+538,28373,Nishil V M,,Marketing,Sales Unit,,,,,,,,Manipal Media Network Limited
+539,28384,Mohan Rao A,,HR,Payroll Unit,,,,,,,,Aromeo Brands Private Limited
+540,28409,Srinivas Kamath,,Marketing,Sales Unit,,,,,,,,Canara Security Press Limited
+541,28421,Raviraj,,HR,Payroll Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+542,28423,Arun Kumar ,,Security,Admin Unit,,,,,,,,Canara Security Press Limited
+543,45007,Bharat Bhushan Arora,,Marketing,Sales Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+544,42382,N Vijay,,HR,Payroll Unit,,,,,,,,Manipal Digital Network Limited
+545,45098,Ashish Vishwanath Choudhary,,Operations,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+546,45209,Anita Sanjay Suri,,Logistics,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+547,45240,Soumya Kanta Jagadev,,Finance,Compliance Unit,,,,,,,,Canara Security Press Limited
+548,45533,Rajalakshmi Raghunandana,,Finance,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+549,45571,Avinash Kumar,,Finance,Compliance Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+550,55769,Milap Thanki ,,Finance,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+551,10186,A V Balakrishna Holla,,Operations,Operations Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+552,20558,Dinesh Kumar Mishra,,HR,Payroll Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+553,45696,Sahana Gajanana Bhat ,,Operations,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+554,45658,Sudharshan S P,,IT,Data Entry Unit,,,,,,,,Manipal Technologies Limited
+555,11233,Sujith,,Marketing,Sales Unit,,,,,,,,Aromeo Brands Private Limited
+556,55279,Santhoshakumar B S,,Security,Admin Unit,,,,,,,,Manipal Media Network Limited
+557,45060,Nirdesh Kumar,,Logistics,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+558,61310,Adithya K ,,Operations,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+559,61303,Jane Belita Dsouza ,,Operations,Operations Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+560,43688,Prashantha Kumar N,,Marketing,Sales Unit,,,,,,,,Westtek Enterprises Private Limited
+561,61293,Sujith Kumar ,,Operations,Data Entry Unit,,,,,,,,Canara Security Press Limited
+562,61305,Sujith Kumar ,,Operations,Data Entry Unit,,,,,,,,Aromeo Brands Private Limited
+563,24004,Devadatha K Hegde,,Security,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+564,55778,Nilesh S Acharya ,,Operations,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+565,20068,T Ravi Kumar,,IT,Network Unit,,,,,,,,Manipal Digital Network Limited
+566,10211,Astro Mohan,,Marketing,Data Entry Unit,,,,,,,,Manipal Media Network Limited
+567,15593,Anantha Prabhu,,Logistics,Admin Unit,,,,,,,,Canara Security Press Limited
+568,20222,Premanand,,Logistics,Admin Unit,,,,,,,,Manipal Media Network Limited
+569,20062,Nandeesh C T,,Logistics,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+570,28254,G S Karthik Sudhan,,Security,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+571,20252,Manoj V Shetty,,IT,Cybersecurity Unit,,,,,,,,Manipal Technologies Limited
+572,20007,Sathisha Shenoy,,IT,Network Unit,,,,,,,,Manipal Media Network Limited
+573,10234,Arun Bhaskar,,IT,Cybersecurity Unit,,,,,,,,Manipal Energy & Infratech Limited
+574,20336,Shivanagouda D Patil,,Security,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+575,44579,Praveena Y N,,Security,Cybersecurity Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+576,30156,Santhosh G Shanbhag ,,Operations,Operations Unit,,,,,,,,Manipal Energy & Infratech Limited
+577,20215,Dinesh Shetty,,Operations,Operations Unit,,,,,,,,Canara Security Press Limited
+578,45364,Sanjay ,,HR,Payroll Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+579,20341,Ganesh S Naik,,Security,Cybersecurity Unit,,,,,,,,Westtek Enterprises Private Limited
+580,20021,Rajesha Mulki,,Marketing,Data Entry Unit,,,,,,,,Manipal Energy & Infratech Limited
+581,20081,Padmanabha Rai K M,,Finance,Compliance Unit,,,,,,,,Westtek Enterprises Private Limited
+582,20509,Harish K,,Marketing,Data Entry Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+583,40497,Ananda S Poojary ,,IT,Data Entry Unit,,,,,,,,Aromeo Brands Private Limited
+584,45624,Sanjay Yadav,,Finance,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+585,45760,Sudhir Kumar Yadav,,Marketing,Sales Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+586,10363,Rajalakshmi U B,,IT,Cybersecurity Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+587,28349,Vidhathri Bhat,,HR,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+588,28345,Bharathi H M,,Marketing,Data Entry Unit,,,,,,,,Canara Security Press Limited
+589,28372,Sushmitha,,Marketing,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+590,45779,Meghana Shanker Poojary,,Logistics,Operations Unit,,,,,,,,Canara Security Press Limited
+591,40522,Mohini Shetty K,,Operations,Operations Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+592,11237,Sachin Sundar Borkar,,Finance,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+593,41137,C S Venkateshwar Rao,,Logistics,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+594,45609,Dibya Ranjan Nayak,,Logistics,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+595,30845,Harshit Kumar Mishra,,Finance,Admin Unit,,,,,,,,Manipal Technologies Limited
+596,45277,Ajay Bahadur Roy,,Operations,Data Entry Unit,,,,,,,,Aromeo Brands Private Limited
+597,26107,Chandrashekhar Omkarsa Pawar,,IT,Cybersecurity Unit,,,,,,,,Manipal Technologies Limited
+598,45679,Sundara,,Operations,Operations Unit,,,,,,,,Manipal Technologies Limited
+599,45315,Roshan K Achari,,Security,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+600,41841,Noel Robert Lobo,,HR,Payroll Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+601,41349,Muddu Poojary,,Operations,Operations Unit,,,,,,,,Manipal Media Network Limited
+602,28244,Danyashree,,HR,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+603,28246,Ranjini M,,Security,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+604,28207,Hemaraddy Mallappa Saidapur,,Marketing,Sales Unit,,,,,,,,Westtek Enterprises Private Limited
+605,28339,Shrirama G Nayak,,Security,Cybersecurity Unit,,,,,,,,Aromeo Brands Private Limited
+606,11115,Dinesha Shetty,,Logistics,Operations Unit,,,,,,,,Manipal Technologies Limited
+607,44144,Vignesha K Bhat,,Security,Cybersecurity Unit,,,,,,,,Westtek Enterprises Private Limited
+608,43307,Poornima,,Marketing,Sales Unit,,,,,,,,Westtek Enterprises Private Limited
+609,55749,Prajwal G Shettigar,,Operations,Data Entry Unit,,,,,,,,Manipal Energy & Infratech Limited
+610,30772,Akshay Narayan Naik,,IT,Data Entry Unit,,,,,,,,Canara Security Press Limited
+611,45711,Prashanth T S,,IT,Cybersecurity Unit,,,,,,,,Westtek Enterprises Private Limited
+612,45759,Nidhisha Ramesh,,Marketing,Data Entry Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+613,40399,Savithri,,Finance,Admin Unit,,,,,,,,Manipal Media Network Limited
+614,41363,Shrimathi Upadhya,,Operations,Operations Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+615,28348,Kiran Kumar H N,,Security,Admin Unit,,,,,,,,Manipal Digital Network Limited
+616,28208,Channappa Mulimani,,Security,Cybersecurity Unit,,,,,,,,Aromeo Brands Private Limited
+617,28341,Doddesha D,,Operations,Operations Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+618,45153,Ankur Mittal,,IT,Cybersecurity Unit,,,,,,,,Aromeo Brands Private Limited
+619,45508,Krishnaprasad S,,Marketing,Data Entry Unit,,,,,,,,Manipal Technologies Limited
+620,45313,Razan Nasir,,IT,Cybersecurity Unit,,,,,,,,Manipal Media Network Limited
+621,45601,Vivekanandan Venkatachalam,,Finance,Admin Unit,,,,,,,,Manipal Technologies Limited
+622,84004,Prasad Jain,,Marketing,Data Entry Unit,,,,,,,,Manipal Energy & Infratech Limited
+623,55651,Sheldon Jeevan D Souza,,Security,Cybersecurity Unit,,,,,,,,Aromeo Brands Private Limited
+624,45783,Shubham Chandrakant Sonawane,,Security,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+625,45418,Kandacharam Lohithaksha,,HR,Payroll Unit,,,,,,,,Manipal Energy & Infratech Limited
+626,45203,Ashwini,,Operations,Data Entry Unit,,,,,,,,Canara Security Press Limited
+627,11050,Vagesh Rao,,Logistics,Operations Unit,,,,,,,,Manipal Digital Network Limited
+628,30768,Supreetha,,Operations,Data Entry Unit,,,,,,,,Manipal Energy & Infratech Limited
+629,11244,Prasada,,Operations,Operations Unit,,,,,,,,Manipal Technologies Limited
+630,45737,Runali Ramdas Salvi,,HR,Payroll Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+631,55566,Purushotham Nayak,,IT,Network Unit,,,,,,,,Manipal Digital Network Limited
+632,42100,Dondappa R Hatti,,Finance,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+633,41644,Shashi Ranjan,,Finance,Compliance Unit,,,,,,,,Canara Security Press Limited
+634,41080,K Girish Kini,,IT,Network Unit,,,,,,,,Manipal Media Network Limited
+635,45448,Vinay Kumar,,IT,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+636,28205,Naveen Bhat,,Security,Cybersecurity Unit,,,,,,,,Manipal Digital Network Limited
+637,28209,Devesha S D,,Security,Cybersecurity Unit,,,,,,,,Aromeo Brands Private Limited
+638,45772,Surendra Behera ,,Finance,Compliance Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+639,45738,Gnanasundar E S ,,Finance,Compliance Unit,,,,,,,,Manipal Media Network Limited
+640,28283,Ravi Nagaraja Sherugara ,,IT,Cybersecurity Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+641,20120,B K Krishnappa,,Security,Cybersecurity Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+642,45744,Pulluru Keerthi ,,Finance,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+643,55020,S P Narayana Bhat,,HR,Admin Unit,,,,,,,,Manipal Media Network Limited
+644,45231,Pranav B Hegde,,Marketing,Data Entry Unit,,,,,,,,Aromeo Brands Private Limited
+645,44733,Manoj,,Operations,Operations Unit,,,,,,,,Canara Security Press Limited
+646,28282,Mahantappa ,,Marketing,Sales Unit,,,,,,,,Canara Security Press Limited
+647,61288,Sanath Shankar Rao,,Security,Admin Unit,,,,,,,,Manipal Technologies Limited
+648,45195,Shyam Kumar Yadav,,HR,Admin Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+649,44781,Amanpreet Sin,,Logistics,Operations Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+650,61285,Ajay Kotian,,Finance,Compliance Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+651,45765,Mohit Kumar,,Finance,Compliance Unit,,,,,,,,Manipal Energy & Infratech Limited
+652,28342,Vishnudasa Patil,,HR,Payroll Unit,,,,,,,,Westtek Enterprises Private Limited
+653,28346,Vithalsingh Rajput,,Finance,Compliance Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+654,45532,Pramod Kumar,,Finance,Compliance Unit,,,,,,,,Manipal Technologies Limited
+655,28343,Deepak Lasrado,,Operations,Operations Unit,,,,,,,,Manipal Payment and Identity Solutions Limited
+656,28231,Sujan Ravi Bhat,,Operations,Data Entry Unit,,,,,,,,Manipal Energy & Infratech Limited
+657,44154,Amit Sharma,,HR,Payroll Unit,,,,,,,,Manipal Media Network Limited
+658,41090,Sathya M S Prakash,,Operations,Operations Unit,,,,,,,,Manipal Digital Network Limited
+659,61278,Priyanka Christopher,,Logistics,Admin Unit,,,,,,,,Manipal Energy & Infratech Limited
+660,45430,Jeevan,,IT,Cybersecurity Unit,,,,,,,,Aromeo Brands Private Limited
+661,14010,Shindu Hegade ,,Marketing,Sales Unit,,,,,,,,Westtek Enterprises Private Limited
+662,28428,Shravankumar Vasant Bhajantri ,,Operations,Operations Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+663,28429,Ramesh Angadi ,,Security,Cybersecurity Unit,,,,,,,,Manipal Media Network Limited
+664,55724,Anupam Pandey,,Logistics,Admin Unit,,,,,,,,Canara Security Press Limited
+665,45736,Sushma Pundalik Thorat ,,Logistics,Operations Unit,,,,,,,,Manipal Technologies Limited
+666,45809,Thirumal V,,IT,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+667,53436,Ajay Madan Acharya,,IT,Cybersecurity Unit,,,,,,,,Manipal Energy & Infratech Limited
+668,61290,Chethan S Rao,,HR,Payroll Unit,,,,,,,,Canara Security Press Limited
+669,45284,Kannemadugu Sreevidya,,HR,Admin Unit,,,,,,,,Aromeo Brands Private Limited
+670,45838,Shreesha K Kedlaya,,IT,Cybersecurity Unit,,,,,,,,Westtek Enterprises Private Limited
+671,45612,Shivaprasad,,HR,Payroll Unit,,,,,,,,Manipal Technologies Limited
+672,45623,Anand Kumar N,,Finance,Admin Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+673,45761,Prithwish Mukherjee,,Finance,Admin Unit,,,,,,,,Manipal Media Network Limited
+674,86125,Purushottam Narasimha Bhatkal,,IT,Data Entry Unit,,,,,,,,Westtek Enterprises Private Limited
+675,61289,Nisha U,,Marketing,Sales Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+676,44973,Subrahmanya,,IT,Cybersecurity Unit,,,,,,,,Aromeo Brands Private Limited
+677,45527,Rashmi,,HR,Payroll Unit,,,,,,,,Manipal Technologies Limited
+678,45604,Sampath,,Finance,Compliance Unit,,,,,,,,Zeta Cyber Solutions Private Limited
+679,61308,Shreyas S,,Finance,Admin Unit,,,,,,,,Westtek Enterprises Private Limited
+680,55831,Sujith Kumar,,Finance,Admin Unit,,,,,,,,QuestPro Consultancy Services Private Limited
+681,55032,Pushpa,,Security,Admin Unit,,,,,,,,Manipal Digital Network Limited
+682,,#N/A,,IT,Data Entry Unit,,,,,,,,Manipal Payment and Identity Solutions Limited

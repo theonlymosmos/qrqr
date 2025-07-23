@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container-form">
+    <h2>Add New Employee</h2>
+
+    <form method="POST" action="/add">
+        <div class="mb-3">
+            <label for="employee_code" class="form-label">Employee Code No.</label>
+            <input type="text" class="form-control" id="employee_code" name="employee_code" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Employee Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="designation" class="form-label">Designation</label>
+            <input type="text" class="form-control" id="designation" name="designation" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="department" class="form-label">Department</label>
+            <input type="text" class="form-control" id="department" name="department" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="unit" class="form-label">Unit / Entity</label>
+            <input type="text" class="form-control" id="unit" name="unit" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="epf" class="form-label">EPF A/c No.</label>
+            <input type="text" class="form-control" id="epf" name="epf" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="esi" class="form-label">ESI Code No.</label>
+            <input type="text" class="form-control" id="esi" name="esi" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="joining_date" class="form-label">Date of Joining</label>
+            <input type="date" class="form-control" id="joining_date" name="joining_date" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="retirement_date" class="form-label">Date of Retirement</label>
+            <input type="date" class="form-control" id="retirement_date" name="retirement_date" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="leaving_date" class="form-label">Date of Leaving</label>
+            <input type="date" class="form-control" id="leaving_date" name="leaving_date" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="uan" class="form-label">UAN No.</label>
+            <input type="text" class="form-control" id="uan" name="uan" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-3">Save Employee</button>
+    </form>
+</div>
+{% endblock %}
